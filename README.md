@@ -22,29 +22,6 @@ so I like problems that touch the whole stack — from a sensor on a pump to a d
 - 🎯 Looking for a **curricular internship** in Embedded Systems / Edge AI / IoT / Firmware
 - 📫 Reach me at **mohebbixsina@gmail.com**
 
-## A little `whoami`
-
-```python
-import pyfiglet
-
-def whoami():
-    print(pyfiglet.figlet_format("SINA  MOHEBBI", font="slant"))
-    print("  Electronics Engineer · Edge AI + Embedded Systems")
-    print("  Bologna, Italy · always shipping models onto tiny hardware")
-
-whoami()
-```
-
-```text
-   _____ _____   _____         __  _______  __  ____________  ____  ____
-  / ___//  _/ | / /   |       /  |/  / __ \/ / / / ____/ __ )/ __ )/  _/
-  \__ \ / //  |/ / /| |      / /|_/ / / / / /_/ / __/ / __  / __  |/ /
- ___/ // // /|  / ___ |     / /  / / /_/ / __  / /___/ /_/ / /_/ // /
-/____/___/_/ |_/_/  |_|    /_/  /_/\____/_/ /_/_____/_____/_____/___/
-
-  Electronics Engineer · Edge AI + Embedded Systems
-  Bologna, Italy · always shipping models onto tiny hardware
-```
 
 ## 🛠️ Tech I work with
 
