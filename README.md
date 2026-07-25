@@ -1,7 +1,7 @@
 <!-- Typing header -->
 <div align="center">
   <a href="https://github.com/sina-mohebbi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=71DDAE&center=true&vCenter=true&width=680&lines=ML+%2B+Embedded+Systems+Engineer;Edge+AI+%C2%B7+TinyML+%C2%B7+IoT+%C2%B7+Sensor+Fusion;M.Sc.+Electronics+%40+University+of+Bologna;Making+neural+nets+small+enough+to+run+on+a+MCU" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0057FF&center=true&vCenter=true&width=680&lines=ML+%2B+Embedded+Systems+Engineer;Edge+AI+%C2%B7+TinyML+%C2%B7+IoT+%C2%B7+Sensor+Fusion;M.Sc.+Electronics+%40+University+of+Bologna;Making+neural+nets+small+enough+to+run+on+a+MCU" alt="Typing SVG" />
   </a>
 </div>
 
