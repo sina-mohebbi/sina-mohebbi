@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sina-mohebbi-31bb143b9/"><img src="https://img.shields.io/badge/LinkedIn-sina--mohebbi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mohebbixsina@gmail.com"><img src="https://img.shields.io/badge/Email-mohebbixsina%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/sina-mohebbi"><img src="https://img.shields.io/badge/GitHub-sina--mohebbi-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <img src="https://komarev.com/ghpvc/?username=sina-mohebbi&label=Profile%20views&color=0057ff&style=flat-square" alt="Profile views" />
 </p>
 
