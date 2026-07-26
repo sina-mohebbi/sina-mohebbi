@@ -66,8 +66,7 @@ Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual rea
 
 ## ⚙️ From signal to silicon
 
-<sub>Sensor signal → FFT → neural network → microcontroller → deployed across robotics, industrial automation, automotive & drones.</sub>
-
+<sub>Sensor signal → FFT → neural network → microcontroller → deployement
 <!-- Profile banner -->
 <p align="center">
   <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
