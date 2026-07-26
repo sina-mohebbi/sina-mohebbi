@@ -9,8 +9,8 @@
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="0.3" stop-color="#3b82f6"/>
       <stop offset="0.55" stop-color="#a78bfa"/>
-      <stop offset="0.8" stop-color="#f59e0b"/>
-      <stop offset="1" stop-color="#fcd34d"/>
+      <stop offset="0.78" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fb7185"/>
     </linearGradient>
     <linearGradient id="gWave" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22d3ee"/>
@@ -37,6 +37,10 @@
       <stop offset="0" stop-color="#fbbf24"/>
       <stop offset="1" stop-color="#f59e0b"/>
     </linearGradient>
+    <linearGradient id="gDeploy" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
     <radialGradient id="chipGlow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#f59e0b" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
@@ -50,7 +54,7 @@
       <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="haloR" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.18"/>
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.17"/>
       <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
@@ -65,71 +69,71 @@
   <!-- backdrop -->
   <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
   <rect width="1280" height="300" rx="18" fill="url(#dots)"/>
-  <ellipse cx="250" cy="150" rx="280" ry="180" fill="url(#haloL)"/>
-  <ellipse cx="580" cy="150" rx="260" ry="170" fill="url(#haloM)"/>
-  <ellipse cx="920" cy="150" rx="360" ry="185" fill="url(#haloR)"/>
-  <line x1="55" y1="150" x2="820" y2="150" stroke="url(#gSpectrum)" stroke-opacity="0.14" stroke-width="1"/>
+  <ellipse cx="220" cy="150" rx="280" ry="180" fill="url(#haloL)"/>
+  <ellipse cx="620" cy="150" rx="280" ry="170" fill="url(#haloM)"/>
+  <ellipse cx="1000" cy="150" rx="340" ry="185" fill="url(#haloR)"/>
+  <line x1="55" y1="150" x2="1000" y2="150" stroke="url(#gSpectrum)" stroke-opacity="0.14" stroke-width="1"/>
 
   <!-- ===== 1. sensor waveform (fused signals) ===== -->
-  <path d="M55 150 C 66 128,89 128,100 150 S 134 172,145 150 S 179 128,190 150 S 224 172,235 150"
+  <path d="M60 150 C 74 126,101 126,115 150 S 156 174,170 150 S 211 126,225 150 S 266 174,280 150"
         fill="none" stroke="url(#gWave)" stroke-width="2.6" stroke-linecap="round" filter="url(#glow)"/>
-  <path d="M55 150 C 63 139,78 139,88 150 S 113 161,125 150 S 150 139,162 150 S 187 161,200 150 S 223 141,235 150"
+  <path d="M60 150 C 70 138,88 138,100 150 S 128 162,142 150 S 170 138,184 150 S 212 162,226 150 S 262 138,280 150"
         fill="none" stroke="#5eead4" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.55"/>
   <circle r="4" fill="#ecfeff" filter="url(#glow)">
     <animateMotion dur="3.6s" repeatCount="indefinite"
-      path="M55 150 C 66 128,89 128,100 150 S 134 172,145 150 S 179 128,190 150 S 224 172,235 150"/>
+      path="M60 150 C 74 126,101 126,115 150 S 156 174,170 150 S 211 126,225 150 S 266 174,280 150"/>
   </circle>
 
-  <path d="M250 142 l10 8 l-10 8" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M320 142 l10 8 l-10 8" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
 
   <!-- ===== 2. FFT spectrum bars ===== -->
   <g fill="url(#gBar)">
-    <rect x="278" y="158" width="10" height="22" rx="3"/>
-    <rect x="296" y="138" width="10" height="42" rx="3"/>
-    <rect x="314" y="116" width="10" height="64" rx="3">
+    <rect x="360" y="158" width="10" height="22" rx="3"/>
+    <rect x="378" y="138" width="10" height="42" rx="3"/>
+    <rect x="396" y="116" width="10" height="64" rx="3">
       <animate attributeName="height" values="64;40;64" dur="2.4s" repeatCount="indefinite"/>
       <animate attributeName="y" values="116;140;116" dur="2.4s" repeatCount="indefinite"/>
     </rect>
-    <rect x="332" y="96" width="10" height="84" rx="3"/>
-    <rect x="350" y="112" width="10" height="68" rx="3">
+    <rect x="414" y="96" width="10" height="84" rx="3"/>
+    <rect x="432" y="112" width="10" height="68" rx="3">
       <animate attributeName="height" values="68;92;68" dur="2.9s" repeatCount="indefinite"/>
       <animate attributeName="y" values="112;88;112" dur="2.9s" repeatCount="indefinite"/>
     </rect>
-    <rect x="368" y="90" width="10" height="90" rx="3"/>
-    <rect x="386" y="120" width="10" height="60" rx="3">
+    <rect x="450" y="90" width="10" height="90" rx="3"/>
+    <rect x="468" y="120" width="10" height="60" rx="3">
       <animate attributeName="height" values="60;44;60" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="y" values="120;136;120" dur="2.2s" repeatCount="indefinite"/>
     </rect>
   </g>
   <g fill="url(#gBarHi)">
-    <rect x="404" y="140" width="10" height="40" rx="3"/>
-    <rect x="422" y="156" width="10" height="24" rx="3"/>
+    <rect x="486" y="140" width="10" height="40" rx="3"/>
+    <rect x="504" y="156" width="10" height="24" rx="3"/>
   </g>
 
-  <path d="M448 142 l10 8 l-10 8" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M560 142 l10 8 l-10 8" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
 
   <!-- ===== 3. neural network ===== -->
   <g stroke="url(#gWire)" stroke-width="1.4">
-    <path d="M478 100 L568 116"/><path d="M478 100 L568 150"/><path d="M478 100 L568 184"/>
-    <path d="M478 133 L568 116"/><path d="M478 133 L568 150"/><path d="M478 133 L568 184"/>
-    <path d="M478 167 L568 116"/><path d="M478 167 L568 150"/><path d="M478 167 L568 184"/>
-    <path d="M478 200 L568 116"/><path d="M478 200 L568 150"/><path d="M478 200 L568 184"/>
-    <path d="M568 116 L658 133"/><path d="M568 116 L658 167"/>
-    <path d="M568 150 L658 133"/><path d="M568 150 L658 167"/>
-    <path d="M568 184 L658 133"/><path d="M568 184 L658 167"/>
+    <path d="M600 100 L720 116"/><path d="M600 100 L720 150"/><path d="M600 100 L720 184"/>
+    <path d="M600 133 L720 116"/><path d="M600 133 L720 150"/><path d="M600 133 L720 184"/>
+    <path d="M600 167 L720 116"/><path d="M600 167 L720 150"/><path d="M600 167 L720 184"/>
+    <path d="M600 200 L720 116"/><path d="M600 200 L720 150"/><path d="M600 200 L720 184"/>
+    <path d="M720 116 L840 133"/><path d="M720 116 L840 167"/>
+    <path d="M720 150 L840 133"/><path d="M720 150 L840 167"/>
+    <path d="M720 184 L840 133"/><path d="M720 184 L840 167"/>
   </g>
   <g fill="#12101f" stroke="url(#gNode)" stroke-width="2" filter="url(#glow)">
-    <circle cx="478" cy="100" r="7"/><circle cx="478" cy="133" r="7"/><circle cx="478" cy="167" r="7"/><circle cx="478" cy="200" r="7"/>
-    <circle cx="568" cy="116" r="7"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="568" cy="150" r="7"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="568" cy="184" r="7"><animate attributeName="stroke-opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="658" cy="133" r="7"/><circle cx="658" cy="167" r="7"/>
+    <circle cx="600" cy="100" r="7"/><circle cx="600" cy="133" r="7"/><circle cx="600" cy="167" r="7"/><circle cx="600" cy="200" r="7"/>
+    <circle cx="720" cy="116" r="7"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="150" r="7"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="184" r="7"><animate attributeName="stroke-opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="133" r="7"/><circle cx="840" cy="167" r="7"/>
   </g>
 
-  <path d="M683 142 l10 8 l-10 8" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M865 142 l10 8 l-10 8" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
 
   <!-- ===== 4. microcontroller ===== -->
-  <g transform="translate(768 150)">
+  <g transform="translate(950 150)">
     <circle cx="0" cy="0" r="100" fill="url(#chipGlow)"/>
     <g stroke="#f59e0b" stroke-width="2.6" stroke-linecap="round">
       <path d="M-46 -46 v-17"/><path d="M-23 -46 v-17"/><path d="M0 -46 v-17"/><path d="M23 -46 v-17"/><path d="M46 -46 v-17"/>
@@ -153,23 +157,23 @@
     </circle>
   </g>
 
-  <!-- ===== 5. deploy fan-out to application domains ===== -->
-  <g stroke="#f59e0b" stroke-width="1.4" fill="none" stroke-opacity="0.32">
-    <path d="M832 150 C 920 150, 980 78, 1069 78"/>
-    <path d="M832 150 C 920 150, 980 126, 1069 126"/>
-    <path d="M832 150 C 920 150, 980 174, 1069 174"/>
-    <path d="M832 150 C 920 150, 980 222, 1069 222"/>
+  <!-- ===== 5. deploy fan-out to application domains (short pink-red links) ===== -->
+  <g stroke="url(#gDeploy)" stroke-width="1.6" fill="none" stroke-opacity="0.55">
+    <path d="M1014 150 C 1048 150, 1058 78, 1090 78"/>
+    <path d="M1014 150 C 1048 150, 1058 126, 1090 126"/>
+    <path d="M1014 150 C 1048 150, 1058 174, 1090 174"/>
+    <path d="M1014 150 C 1048 150, 1058 222, 1090 222"/>
   </g>
-  <circle r="3" fill="#fcd34d" opacity="0.9">
-    <animateMotion dur="2.8s" repeatCount="indefinite" path="M832 150 C 920 150, 980 78, 1069 78"/>
+  <circle r="3" fill="#fb7185" opacity="0.95">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M1014 150 C 1048 150, 1058 78, 1090 78"/>
   </circle>
-  <circle r="3" fill="#fcd34d" opacity="0.9">
-    <animateMotion dur="3.3s" repeatCount="indefinite" path="M832 150 C 920 150, 980 174, 1069 174"/>
+  <circle r="3" fill="#fb7185" opacity="0.95">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M1014 150 C 1048 150, 1058 174, 1090 174"/>
   </circle>
 
   <!-- application tiles -->
   <!-- Robotics -->
-  <g transform="translate(1095 78)">
+  <g transform="translate(1114 78)">
     <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#1a1206" stroke="url(#gChip)" stroke-width="2" filter="url(#glow)"/>
     <g stroke="#fffbeb" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M0 -15 V-11"/>
@@ -182,7 +186,7 @@
     <circle cx="-4" cy="-5" r="1.9" fill="#fcd34d"/><circle cx="4" cy="-5" r="1.9" fill="#fcd34d"/>
   </g>
   <!-- Industrial automation (robotic arm) -->
-  <g transform="translate(1095 126)">
+  <g transform="translate(1114 126)">
     <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#1a1206" stroke="url(#gChip)" stroke-width="2" filter="url(#glow)"/>
     <g stroke="#fffbeb" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M0 9 L-5 -1"/>
@@ -194,7 +198,7 @@
     <circle cx="-5" cy="-1" r="2.3" fill="#1a1206" stroke="#fffbeb" stroke-width="1.6"/>
   </g>
   <!-- Automotive (car) -->
-  <g transform="translate(1095 174)">
+  <g transform="translate(1114 174)">
     <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#1a1206" stroke="url(#gChip)" stroke-width="2" filter="url(#glow)"/>
     <g stroke="#fffbeb" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M-14 5 V0 L-8 0 L-4 -6 L6 -6 L10 0 L14 0 V5"/>
@@ -203,7 +207,7 @@
     <circle cx="8" cy="6" r="3.2" fill="#1a1206" stroke="#fffbeb" stroke-width="1.7"/>
   </g>
   <!-- Drone / UAV -->
-  <g transform="translate(1095 222)">
+  <g transform="translate(1114 222)">
     <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#1a1206" stroke="url(#gChip)" stroke-width="2" filter="url(#glow)"/>
     <g stroke="#fffbeb" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M0 0 L-12 -8"/><path d="M0 0 L12 -8"/><path d="M0 0 L-12 8"/><path d="M0 0 L12 8"/>
