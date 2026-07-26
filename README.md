@@ -117,6 +117,7 @@ Modbus &amp; CAN control and monitoring of a **6-DOF pick-and-place robotic arm*
 ![CAN](https://img.shields.io/badge/-CAN-333333?style=flat-square)
 ![I2C / SPI / UART](https://img.shields.io/badge/-I2C%20%2F%20SPI%20%2F%20UART-555555?style=flat-square)
 ![RS-485](https://img.shields.io/badge/-RS--485-555555?style=flat-square)
+![Bluetooth](https://img.shields.io/badge/-Bluetooth-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
 
 **Tools**
 
@@ -126,6 +127,7 @@ Modbus &amp; CAN control and monitoring of a **6-DOF pick-and-place robotic arm*
 ![InfluxDB](https://img.shields.io/badge/-InfluxDB-22ADF6?style=flat-square&logo=influxdb&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Mosquitto](https://img.shields.io/badge/-Mosquitto-3C5280?style=flat-square&logo=eclipsemosquitto&logoColor=white)
+![SCADA](https://img.shields.io/badge/-SCADA-B7472A?style=flat-square)
 ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
 ## 📊 GitHub in numbers
