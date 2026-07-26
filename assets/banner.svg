@@ -70,13 +70,8 @@
     </pattern>
   </defs>
 
-  <!-- backdrop -->
-  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1280" height="300" rx="18" fill="url(#dots)"/>
-  <ellipse cx="220" cy="150" rx="280" ry="180" fill="url(#haloL)"/>
-  <ellipse cx="620" cy="150" rx="280" ry="170" fill="url(#haloM)"/>
-  <ellipse cx="1000" cy="150" rx="340" ry="185" fill="url(#haloR)"/>
-  <line x1="55" y1="150" x2="1000" y2="150" stroke="url(#gSpectrum)" stroke-opacity="0.14" stroke-width="1"/>
+  <!-- transparent: elements float on the page background -->
+  <line x1="55" y1="150" x2="1000" y2="150" stroke="url(#gSpectrum)" stroke-opacity="0.28" stroke-width="1"/>
 
   <!-- ===== 1. sensor waveform (fused signals) ===== -->
   <path d="M60 150 C 74 126,101 126,115 150 S 156 174,170 150 S 211 126,225 150 S 266 174,280 150"
