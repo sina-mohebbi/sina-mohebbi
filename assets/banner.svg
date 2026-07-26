@@ -30,8 +30,8 @@
   <!-- backdrop -->
   <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
   <rect width="1280" height="340" rx="20" fill="url(#grid)"/>
-  <circle cx="215" cy="170" r="185" fill="#3b82f6" opacity="0.07"/>
-  <circle cx="1060" cy="180" r="150" fill="#7c4a2d" opacity="0.14"/>
+  <circle cx="164" cy="157" r="170" fill="#3b82f6" opacity="0.07"/>
+  <circle cx="1010" cy="170" r="150" fill="#7c4a2d" opacity="0.14"/>
 
   <!-- ===== LEFT: full neural network (the "big" model) ===== -->
   <g transform="translate(48,24) scale(0.83)">
