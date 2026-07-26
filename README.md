@@ -5,7 +5,7 @@
   </a>
 </div>
 
-# 👋 Hi, I'm Sina Mohebbi — Electronics Engineer from Bologna, 🇮🇹
+# 👋 Hi, I'm Sina Mohebbi — Electronics Engineer currently living in Bologna, 🇮🇹
 
 I work where **machine learning meets real hardware**: training models on a laptop, then
 quantizing and shipping them onto microcontrollers where every kilobyte and millisecond counts.
