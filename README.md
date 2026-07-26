@@ -1,3 +1,8 @@
+<!-- Profile banner -->
+<p align="center">
+  <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
+</p>
+
 <!-- Typing header -->
 <div align="center">
   <a href="https://github.com/sina-mohebbi">
