@@ -64,6 +64,15 @@ End-to-end **IoT desk monitor**: ESP32 sensing → HTTP/CoAP → InfluxDB → Gr
 
 Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual reasoning without position labels.
 
+### 🦾 Industrial Communication for a 6-DOF Robotic Arm &nbsp;·&nbsp; *B.Sc. Thesis*
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Modbus RTU](https://img.shields.io/badge/-Modbus%20RTU-1F4E79?style=flat-square)
+![CAN](https://img.shields.io/badge/-CAN-333333?style=flat-square)
+![SCADA](https://img.shields.io/badge/-SCADA-B7472A?style=flat-square)
+
+Modbus &amp; CAN control and monitoring of a **6-DOF pick-and-place robotic arm** — integrating motor commands, sensor feedback, and remote operation over SCADA and a Bluetooth mobile interface.
+
 ## ⚙️ From signal to silicon
 
 <sub>Sensor signal → FFT → neural network → microcontroller → deployement
