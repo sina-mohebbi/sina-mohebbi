@@ -65,6 +65,10 @@ End-to-end **IoT desk monitor**: ESP32 sensing → HTTP/CoAP → InfluxDB → Gr
 
 Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual reasoning without position labels.
 
+## ⚙️ From signal to silicon
+
+<sub>Sensor signal → FFT → neural network → microcontroller → deployed across robotics, industrial automation, automotive & drones.</sub>
+
 <!-- Profile banner -->
 <p align="center">
   <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
@@ -126,5 +130,14 @@ Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual rea
 
 <div align="center">
   <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=sina-mohebbi&hide_border=true&theme=transparent" />
+</div>
+
+<div align="center">
+  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=sina-mohebbi&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" />
+</div>
+
+<!-- Contribution activity graph -->
+<div align="center">
+  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sina-mohebbi&hide_border=true&area=true&bg_color=00000000&color=38bdf8&line=f472b6&point=fbbf24" width="98%" />
 </div>
 
