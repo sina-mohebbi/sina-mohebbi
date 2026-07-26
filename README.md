@@ -31,8 +31,8 @@ so I like problems that touch the whole stack — from a sensor on a pump to a d
 
 ## 🎓 Education
 
-- **M.Sc. Electronics for Big Data, IoT &amp; Intelligent Systems** — University of Bologna
-- **B.Sc. Control Engineering** — University of Tehran
+- **M.Sc. Electronics for Big Data, IoT &amp; Intelligent Systems** &nbsp;![University of Bologna](https://img.shields.io/badge/University_of_Bologna-A6093D?style=flat-square&logoColor=white)
+- **B.Sc. Control Engineering** &nbsp;![University of Tehran](https://img.shields.io/badge/University_of_Tehran-14367A?style=flat-square&logoColor=white)
 
 ## 🔧 Featured Projects
 
