@@ -1,8 +1,3 @@
-<!-- Profile banner -->
-<p align="center">
-  <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
-</p>
-
 <!-- Typing header -->
 <div align="center">
   <a href="https://github.com/sina-mohebbi">
@@ -69,6 +64,11 @@ End-to-end **IoT desk monitor**: ESP32 sensing → HTTP/CoAP → InfluxDB → Gr
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 
 Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual reasoning without position labels.
+
+<!-- Profile banner -->
+<p align="center">
+  <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
+</p>
 
 ## 🛠️ Tech I work with
 
