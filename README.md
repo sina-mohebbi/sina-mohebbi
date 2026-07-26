@@ -12,7 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=sina-mohebbi&label=Profile%20views&color=0057ff&style=flat-square" alt="Profile views" />
 </p>
 
-# 👋 Hi, I'm Sina Mohebbi — Embedded AI Engineer living in Bologna, 🇮🇹
+# 👋 Hi, I'm Sina — Embedded AI Engineer living in Bologna, 🇮🇹
 
 I work where **machine learning meets real hardware**: training models on a laptop, then
 quantizing and shipping them onto microcontrollers where every kilobyte and millisecond counts.
