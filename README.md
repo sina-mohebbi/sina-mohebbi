@@ -10,6 +10,13 @@
   </a>
 </div>
 
+<!-- Connect + profile views -->
+<p align="center">
+  <a href="mailto:mohebbixsina@gmail.com"><img src="https://img.shields.io/badge/Email-mohebbixsina%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/sina-mohebbi"><img src="https://img.shields.io/badge/GitHub-sina--mohebbi-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=sina-mohebbi&label=Profile%20views&color=0057ff&style=flat-square" alt="Profile views" />
+</p>
+
 # 👋 Hi, I'm Sina Mohebbi — Electronics Engineer currently living in Bologna, 🇮🇹
 
 I work where **machine learning meets real hardware**: training models on a laptop, then
@@ -27,6 +34,40 @@ so I like problems that touch the whole stack — from a sensor on a pump to a d
 - 🎯 Looking for a **curricular internship** in Embedded Systems / Edge AI / IoT / Firmware
 - 📫 Reach me at **mohebbixsina@gmail.com**
 
+## 🎓 Education
+
+- **M.Sc. Electronics for Big Data, IoT &amp; Intelligent Systems** — University of Bologna
+- **B.Sc. Control Engineering** — University of Tehran
+
+## 🔧 Featured Projects
+
+### ⚙️ [edgeAI-MachineSense](https://github.com/sina-mohebbi/edgeAI-MachineSense)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TFLite Micro](https://img.shields.io/badge/-TFLite%20Micro-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![ESP-IDF](https://img.shields.io/badge/-ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+On-device machine anomaly detection — an **int8 autoencoder running on a real ESP32** (0.86 AUC, 49 ms/inference).
+
+### 🔊 [edge-ai-sensor-fusion](https://github.com/sina-mohebbi/edge-ai-sensor-fusion)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Signal Processing](https://img.shields.io/badge/-Signal%20Processing-4B8BBE?style=flat-square)
+
+Pump **cavitation detection** by fusing microphone + vibration, with leakage-safe cross-validation.
+
+### 🖥️ [library-desk-sense](https://github.com/sina-mohebbi/library-desk-sense)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![ESP-IDF](https://img.shields.io/badge/-ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-4CAF50?style=flat-square&logo=freertos&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+End-to-end **IoT desk monitor**: ESP32 sensing → HTTP/CoAP → InfluxDB → Grafana → Telegram.
+
+### 🧩 [jigsaw-puzzle-reconstruction-dl](https://github.com/sina-mohebbi/jigsaw-puzzle-reconstruction-dl)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+
+Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual reasoning without position labels.
 
 ## 🛠️ Tech I work with
 
@@ -74,4 +115,15 @@ so I like problems that touch the whole stack — from a sensor on a pump to a d
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Mosquitto](https://img.shields.io/badge/-Mosquitto-3C5280?style=flat-square&logo=eclipsemosquitto&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+
+## 📊 GitHub in numbers
+
+<div align="center">
+  <img height="165" alt="Sina's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=sina-mohebbi&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sina-mohebbi&hide_border=true&layout=compact&langs_count=8&theme=transparent" />
+</div>
+
+<div align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=sina-mohebbi&hide_border=true&theme=transparent" />
+</div>
 
