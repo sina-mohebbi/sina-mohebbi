@@ -73,17 +73,9 @@ Reconstructing a 96×96 image from **9 shuffled, eroded patches** — visual rea
 
 Modbus &amp; CAN control and monitoring of a **6-DOF pick-and-place robotic arm** — integrating motor commands, sensor feedback, and remote operation over SCADA and a Bluetooth mobile interface.
 
-## 💡 What I bring
+## 🔧 What I build: from sensor signal to on-device AI
 
-I'm comfortable across the **whole edge-AI stack** — wiring a sensor and writing the
-firmware, training and quantizing the model, and building the dashboard that shows the
-result. Coming from industrial automation, I care about systems that hold up in the
-field, not just in a notebook.
-
-- 🧠 Took a neural network **from laptop to microcontroller** — an int8 autoencoder on an ESP32 at **49 ms/inference**, cross-checked against the host over 18,540 inferences
-- 🔌 Comfortable from **bare-metal C on the device** up to **Python analytics, InfluxDB, and Grafana** on the backend
-- 🎓 M.Sc. Electronic Engineering — **28.6/30** average, University of Bologna
-- 🗣️ **Persian** (native) · **English** (professional) · **Italian** (basic)
+<sub>Sensor signal → FFT → neural network → microcontroller → deployment</sub>
 <!-- Profile banner -->
 <p align="center">
   <img src="assets/banner.svg" alt="Sina Mohebbi — Edge AI · Embedded Systems · TinyML" width="100%">
