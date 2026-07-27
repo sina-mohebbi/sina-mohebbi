@@ -14,17 +14,16 @@
 
 # 👋 Hi, I'm Sina, an Embedded AI Engineer based in Bologna 🇮🇹
 
-I work where **machine learning meets real hardware**. I train models on a laptop, then shrink
-them down and run them on tiny microcontrollers, where every kilobyte and millisecond matters.
-Before moving into embedded AI I spent three years as a control and instrumentation engineer,
-so I enjoy problems that span the whole stack, from a sensor on a pump all the way to a dashboard
-in the browser.
+I work where **machine learning meets real hardware**. I train models on a laptop, then quantize
+them and run them on microcontrollers, where every kilobyte and millisecond matters. Before moving
+into embedded AI I spent three years as a control and instrumentation engineer, so I enjoy problems
+that span the whole stack, from a sensor on a pump to a dashboard in the browser.
 
 ## About me
 
 - 🎓 M.Sc. **Electronic Engineering** at the University of Bologna, focused on Edge AI, IoT, and embedded systems
 - 🎓 B.Sc. **Control Engineering** at the University of Tehran
-- 🤖 I build **AI that runs on microcontrollers**: TinyML, int8 quantization, and combining several sensors into one model
+- 🤖 I build **AI that runs on microcontrollers**: TinyML, int8 quantization, and multimodal sensor fusion
 - 🏭 Previously spent **3 years** as a control and instrumentation engineer across 12 water pumping and treatment plants
 - 🔬 Recent work: anomaly detection on an ESP32, pump cavitation detection from sound and vibration, and a full IoT desk monitor
 - 🌱 Currently digging into **RISC-V**, **PULP**, and squeezing bigger models onto smaller hardware
@@ -44,13 +43,13 @@ in the browser.
 ![ESP-IDF](https://img.shields.io/badge/-ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-Detects when a machine starts to sound unhealthy, using a small **autoencoder that runs directly on an ESP32**. It learns what a healthy machine sounds like and flags anything different, reaching 0.86 AUC at 49 ms per inference on the board.
+Detects when a machine starts to sound unhealthy, using a small **autoencoder** that is quantized to int8 and runs directly on an ESP32. It learns what a healthy machine sounds like and flags anything different, reaching 0.86 AUC at 49 ms per inference on the board.
 
 ### 🔊 [edge-ai-sensor-fusion](https://github.com/sina-mohebbi/edge-ai-sensor-fusion)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Signal Processing](https://img.shields.io/badge/-Signal%20Processing-4B8BBE?style=flat-square)
 
-Detects **cavitation in a centrifugal pump** by combining a microphone and a vibration sensor in one small neural network. It is only tested on recordings it has never heard before, so the results show how it would behave on a new pump.
+Detects **cavitation in a centrifugal pump** using sensor fusion, combining a microphone and a vibration sensor in one small neural network. It is evaluated only on recordings it has never seen, so the accuracy reflects real generalization to a new pump.
 
 ### 🖥️ [library-desk-sense](https://github.com/sina-mohebbi/library-desk-sense)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
@@ -58,13 +57,13 @@ Detects **cavitation in a centrifugal pump** by combining a microphone and a vib
 ![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-4CAF50?style=flat-square&logo=freertos&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-A complete **IoT system for monitoring library desks**. An ESP32 senses occupancy, light, and noise and sends the readings to a Python backend that stores them, shows live Grafana dashboards, and pushes Telegram alerts.
+A complete **IoT system for monitoring library desks**. An ESP32 senses occupancy, light, and noise and streams the data over HTTP/CoAP to a Python backend that stores it in InfluxDB, shows live Grafana dashboards, and pushes Telegram alerts.
 
 ### 🧩 [jigsaw-puzzle-reconstruction-dl](https://github.com/sina-mohebbi/jigsaw-puzzle-reconstruction-dl)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 
-Rebuilds a **96×96 image after it is cut into 9 shuffled, partly erased tiles**. The model has to work out where each piece belongs and fill in the missing borders, with no hints about the correct positions.
+A **visual-reasoning** model that rebuilds a 96×96 image after it is cut into 9 shuffled, partly erased tiles. It has to infer where each piece belongs and fill in the missing borders, with no position labels to guide it.
 
 ### 🦾 Industrial Communication for a 6-DOF Robotic Arm &nbsp;·&nbsp; *B.Sc. Thesis*
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
