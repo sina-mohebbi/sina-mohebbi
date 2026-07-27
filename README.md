@@ -37,6 +37,10 @@ that span the whole stack, from a sensor on a pump to a dashboard in the browser
 
 ## 🔧 Featured Projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### ⚙️ [edgeAI-MachineSense](https://github.com/sina-mohebbi/edgeAI-MachineSense)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![TFLite Micro](https://img.shields.io/badge/-TFLite%20Micro-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -45,11 +49,19 @@ that span the whole stack, from a sensor on a pump to a dashboard in the browser
 
 Detects when a machine starts to sound unhealthy, using a small **autoencoder** that is quantized to int8 and runs directly on an ESP32. It learns what a healthy machine sounds like and flags anything different, reaching 0.86 AUC at 49 ms per inference on the board.
 
+</td>
+<td width="50%" valign="top">
+
 ### 🔊 [edge-ai-sensor-fusion](https://github.com/sina-mohebbi/edge-ai-sensor-fusion)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Signal Processing](https://img.shields.io/badge/-Signal%20Processing-4B8BBE?style=flat-square)
 
 Detects **cavitation in a centrifugal pump** using sensor fusion, combining a microphone and a vibration sensor in one small neural network. It is evaluated only on recordings it has never seen, so the accuracy reflects real generalization to a new pump.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🖥️ [library-desk-sense](https://github.com/sina-mohebbi/library-desk-sense)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
@@ -59,13 +71,21 @@ Detects **cavitation in a centrifugal pump** using sensor fusion, combining a mi
 
 A complete **IoT system for monitoring library desks**. An ESP32 senses occupancy, light, and noise and streams the data over HTTP/CoAP to a Python backend that stores it in InfluxDB, shows live Grafana dashboards, and pushes Telegram alerts.
 
+</td>
+<td width="50%" valign="top">
+
 ### 🧩 [jigsaw-puzzle-reconstruction-dl](https://github.com/sina-mohebbi/jigsaw-puzzle-reconstruction-dl)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 
 A **visual-reasoning** model that rebuilds a 96×96 image after it is cut into 9 shuffled, partly erased tiles. It has to infer where each piece belongs and fill in the missing borders, with no position labels to guide it.
 
-### 🦾 Industrial Communication for a 6-DOF Robotic Arm &nbsp;·&nbsp; *B.Sc. Thesis*
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🦾 6-DOF Robotic Arm Communication &nbsp;·&nbsp; *B.Sc. Thesis*
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Modbus RTU](https://img.shields.io/badge/-Modbus%20RTU-1F4E79?style=flat-square)
@@ -73,6 +93,12 @@ A **visual-reasoning** model that rebuilds a 96×96 image after it is cut into 9
 ![SCADA](https://img.shields.io/badge/-SCADA-B7472A?style=flat-square)
 
 Control and monitoring of a **6-DOF pick-and-place robotic arm** over Modbus and CAN. It ties together motor commands, sensor feedback, and remote operation through SCADA and a Bluetooth mobile app.
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
+</table>
 
 ## 🔧 What I build: from sensor signal to on-device AI
 
