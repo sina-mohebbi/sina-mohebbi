@@ -12,19 +12,21 @@
   <img src="https://komarev.com/ghpvc/?username=sina-mohebbi&label=Profile%20views&color=0057ff&style=flat-square" alt="Profile views" />
 </p>
 
-# 👋 Hi, I'm Sina — Embedded AI Engineer living in Bologna, 🇮🇹
+# 👋 Hi, I'm Sina, an Embedded AI Engineer based in Bologna 🇮🇹
 
-I work where **machine learning meets real hardware**: training models on a laptop, then
-quantizing and shipping them onto microcontrollers where every kilobyte and millisecond counts.
-Before moving into embedded AI I spent three years as a control &amp; instrumentation engineer,
-so I like problems that touch the whole stack — from a sensor on a pump to a dashboard in the browser.
+I work where **machine learning meets real hardware**. I train models on a laptop, then shrink
+them down and run them on tiny microcontrollers, where every kilobyte and millisecond matters.
+Before moving into embedded AI I spent three years as a control and instrumentation engineer,
+so I enjoy problems that span the whole stack, from a sensor on a pump all the way to a dashboard
+in the browser.
 
 ## About me
 
-- 🎓 M.Sc. **Electronic Engineering** @ University of Bologna — focus on Edge AI, IoT, and embedded systems
-- 🤖 I build **on-device AI on microcontrollers**: TinyML, INT8 quantization, and multimodal sensor fusion
-- 🏭 Previously **3 years** as a Control &amp; Instrumentation Engineer across 12 water pumping &amp; treatment plants
-- 🔬 Recent builds: anomaly detection on an ESP32, pump cavitation detection from sound + vibration, and an end-to-end IoT desk monitor
+- 🎓 M.Sc. **Electronic Engineering** at the University of Bologna, focused on Edge AI, IoT, and embedded systems
+- 🎓 B.Sc. **Control Engineering** at the University of Tehran
+- 🤖 I build **AI that runs on microcontrollers**: TinyML, int8 quantization, and combining several sensors into one model
+- 🏭 Previously spent **3 years** as a control and instrumentation engineer across 12 water pumping and treatment plants
+- 🔬 Recent work: anomaly detection on an ESP32, pump cavitation detection from sound and vibration, and a full IoT desk monitor
 - 🌱 Currently digging into **RISC-V**, **PULP**, and squeezing bigger models onto smaller hardware
 - 🎯 Looking for a **curricular internship** in Embedded Systems / Edge AI / IoT / Firmware
 - 📫 Reach me at **mohebbixsina@gmail.com**
