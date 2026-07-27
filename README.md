@@ -113,6 +113,7 @@ Modbus &amp; CAN control and monitoring of a **6-DOF pick-and-place robotic arm*
 
 ![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![CoAP](https://img.shields.io/badge/-CoAP-4B8BBE?style=flat-square&logo=coap&logoColor=white)
+![HTTP](https://img.shields.io/badge/-HTTP-005571?style=flat-square&logo=curl&logoColor=white)
 ![Modbus](https://img.shields.io/badge/-Modbus%20RTU-1F4E79?style=flat-square)
 ![CAN](https://img.shields.io/badge/-CAN-333333?style=flat-square)
 ![I2C / SPI / UART](https://img.shields.io/badge/-I2C%20%2F%20SPI%20%2F%20UART-555555?style=flat-square)
