@@ -52,7 +52,7 @@ Detects when a machine starts to sound unhealthy, using a small **autoencoder** 
 </td>
 <td width="50%" valign="top">
 
-### 🔊 [edge-ai-sensor-fusion](https://github.com/sina-mohebbi/edge-ai-sensor-fusion)
+### 🔊 [edge-cavitation-detection](https://github.com/sina-mohebbi/edge-cavitation-detection)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Signal Processing](https://img.shields.io/badge/-Signal%20Processing-4B8BBE?style=flat-square)
 
