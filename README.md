@@ -158,12 +158,3 @@ Control and monitoring of a **6-DOF pick-and-place robotic arm** over Modbus and
 ![SCADA](https://img.shields.io/badge/-SCADA-B7472A?style=flat-square)
 ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sina-mohebbi/sina-mohebbi/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sina-mohebbi/sina-mohebbi/output/github-snake.svg" />
-    <img alt="Contribution snake animation eating the contribution graph" src="https://raw.githubusercontent.com/sina-mohebbi/sina-mohebbi/output/github-snake.svg" width="98%" />
-  </picture>
-</div>
-
